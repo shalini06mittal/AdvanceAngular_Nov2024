@@ -1,12 +1,4 @@
 <h1>Custom Directive</h1>
-<select [(ngModel)]="itemname">
-    <option value="masala-dosa">Masala Dosa</option>
-    <option value="matar-paneer">Matar Paneer</option>
-    <option value="sambhar-vada">Sambhar Vada</option>
-    <option value="vegetable-curry">Veg Curry</option>
-</select>
-<img src='assets/masala-dosa.jpg' appCustom [name]="itemname"
-alt={{itemname}} width="400" height="400"/>
 
-<p id="p" appCustom [name]="itemname">This is a paragraph</p>
-<h3 appCustom>This is a heading</h3>
+<button [hover]="'Click me!'" class="mb-3">Hover me</button>
+<div  [hover]="'more info'">hey</div>

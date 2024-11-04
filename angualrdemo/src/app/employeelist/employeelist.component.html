@@ -16,7 +16,7 @@
 <!-- <ng-template #message>
     <p>No employees yet</p>
 </ng-template> -->
-@if(eList.length){
+<!-- @if(eList.length){ -->
     <h4>Employees List with  if</h4>
     @for(emp1 of eList; track emp1.eid){
         <!-- <app-employee [company]="'Rebit'" 
@@ -31,10 +31,13 @@
         </app-employee>
         
     }
+    @empty{
+        <p>No employees yet with else</p>
+    }
     <!-- <div *ngFor="let e of eList">
         <app-employee [data]="e"></app-employee>
     </div> -->
-}
+<!-- }
 @else{
     <p>No employees yet with else</p>
-}
+} -->
