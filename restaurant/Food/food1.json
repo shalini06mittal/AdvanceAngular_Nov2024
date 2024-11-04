@@ -1,0 +1,101 @@
+ [{
+      "id": 1,
+      "name": "Veg Seekh Kabab",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://i.ndtvimg.com/i/2017-09/seekh-kebab_600x350_41506416404.jpg",
+      "quantity": 1,
+      "description": "vegetable seekh kabab with detailed photo and video recipe. this is an adaptation to the famous minced meat seekh kabab for veggie lovers or vegetarians. basically a tandoor platter starter / appetizer which can be served with either mint chutney or sauce."
+    },
+    {
+      "id": 2,
+      "name": "Paneer Chilly Dry",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "ihttps://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/chilli-paneer-recipe-500x375.jpg",
+      "quantity": 1,
+      "description": "Chilli Paneer is a popular restaurant style Indo Chinese starter that is great for a dinner party with friends and family. A spicy, tangy paneer recipe that you can serve as it is or along with a bowl of rice. Loved by kids and adults alike, this is a quick and easy recipe made in just under 30 minutes! This recipe yields one of the best chilli paneer dry that pairs well with a veg fried rice, schezwan fried rice, hakka noodles for the main course or can be served as a starter."
+    },
+    {
+      "id": 3,
+      "name": "Veg Manchurian Dry",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://www.yummytummyaarthi.com/wp-content/uploads/2022/08/veg-manchurian-1.jpeg",
+      "quantity": 1,
+      "description": "This is the Indo Chinese starter dish where fried vegetable balls are coated with thick, flavorful sauce. Since this is the dry version there is no gravy."
+    },
+    {
+      "id": 4,
+      "name": "chicken tikka",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXikMMiZTMGbtCRpAjDJuF7-cvU_WWygIbbw&s",
+      "quantity": 1,
+      "description": "Chicken tikka masala made easy with this great-tasting recipe — simply marinate chicken breast in yogurt and spices and then simmer in a tomato cream sauce. Serve with rice or warm pita bread."
+    },
+    {
+      "id": 5,
+      "name": "Chicken lollipop",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://www.babsprojects.com/wp-content/uploads/2016/03/chicken-lollipop-sq.jpg",
+      "quantity": 1,
+      "description": "Meat that is luscious, rich, sweet, and zesty. Among the crispy finger-licking chicken appetisers from Indo-Chinese cuisine, this Chicken lollipop is one of the most loved chicken wings starters. It is essentially a recipe for crispy batter-fried chicken wings made using chicken drumettes and wingettes. The inside of these fried chicken wings is juicy and flavorful, while the exterior is superbly crispy. Served with spicy schezwan sauce or sweet chilli garlic dip, its heavenly taste will make you crave it regularly!"
+    },
+    {
+      "id": 6,
+      "name": "Veg crispy",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "ihttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4jp2K4M4Ega1rL39yt1uwQcXQZrmm5CrrNA&s",
+      "quantity": 1,
+      "description": "This one is another creation of an Indo Chinese kitchen. A choice of mixed vegetables ranging from babycorn, capsicum, cauliflower, mushrooms and carrots to anything you want to eat are batter fried and then tossed in a sweet spicy sauce with the flavour of ginger and garlic. It is a perfect starter for any party or gathering because there is something in it for everybody."
+    },
+    {
+      "id": 7,
+      "name": "Veg spring roll",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "ihttps://mymorningmocha.com/wp-content/uploads/2023/11/vegetable-spring-rolls-recipe.jpg",
+      "quantity": 1,
+      "description": "These Spring rolls are a popular Chinese snack of crispy rolls filled with a savory mixed vegetables stuffing. Hot handheld pockets of spiced veggies are wrapped and deep fried for an endlessly adaptable and delightfully dippable snack. This yummy recipe for crispy vegan Veg Spring Rolls can be made with whatever veggies you have on hand. I’m excited to show you how to make your favorite Indo-Chinese street food at home using just a few simple ingredients!"
+    },
+    {
+      "id": 8,
+      "name": "Chicken Chilli",
+      "category": "Starter",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://lh5.googleusercontent.com/proxy/AXUGerGG2_x8-PVoD4gQ9rKkvbiti1KGvNc6jwY-Y2fraijZvyaE7OWHy7hsaoQfWk-rOh7IOwZTmBxOsy3c1O-_Aiw5WfnGA6HGOfs-IehtG9llLdFynEf-huuKom3G5AebKnV3LPnAJiI",
+      "quantity": 1,
+      "description": "The quintessential chinese recipe, chilli chicken is one of the most popular Indo-Chinese style chicken appetizer or starter. This delicious chicken recipe is very popular in Chinese restaurants but with this easy recipe you can make it at the comfort of your home - according to your own taste."
+    },
+    {
+      "id": 9,
+      "name": "Kadai paneer",
+      "category": "Main Course",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://uzhavarbumi.s3.ap-south-1.amazonaws.com/uploads/Y9TRK3fnb6AUI4kl7vRwedk0hRqTif33tOIiD4Z8.jpg",
+      "quantity": 1,
+      "description": "Kadai Paneer is a vibrant, tangy, deeply spiced paneer recipe that is perfect for enjoying all year round. Made with Indian pantry staples like onions, tomatoes, capsicum (green bell peppers) and Indian spices, this bright dish comes together in 30 minutes. I share two ways to make this curry – a semi dry restaurant style version and a spicy home style gravy."
+    },
+    {
+      "id": 10,
+      "name": "Veg Makhanwala",
+      "category": "Main Course",
+      "rating": 4.3,
+      "price": 13,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRyElO-ULLghFPI4TYLqDWUUHEM5tvlhBBfw&s",
+      "quantity": 1,
+      "description": "veg makhanwala recipe | vegetable makhanwala | veg makhani recipe with step by step photo and video recipe. vegetable makhani is a slightly sweet creamy gravy recipe prepared with choice of vegetables, butter and cream. this makhani recipe can be ideal for those who does not like paneer and can be served with roti, naan, chapathi’s for lunch and dinner."
+    }
+  ]
