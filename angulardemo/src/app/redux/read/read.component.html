@@ -1,0 +1,15 @@
+<div class="right" *ngIf="tutorials; else empty">
+    <h3>Tutorials</h3>
+    <ul>
+        <li  *ngFor="let tut of tutorials | async; let i = index">
+            <a [href]="tut.url" target="_blank">{{tut.name}}</a> 
+            <span style="color: red;margin-left: 10px;cursor: pointer;" (click)="delTutorial(tut.id)">X</span>
+        </li>
+    </ul>
+</div>
+<ng-template #empty>
+<div class="right">
+    No Tutorials Yet
+</div>
+</ng-template>
+

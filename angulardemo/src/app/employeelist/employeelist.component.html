@@ -1,0 +1,48 @@
+
+<!-- <p>{{eList}}</p> -->
+
+<!-- <div *ngIf="eList.length > 0">
+    <h4>Employees List</h4>
+</div> -->
+<!-- <div *ngIf="!eList.length === 0"></div> -->
+<!-- <div *ngIf="!eList.length">
+    <p>No employees yet</p>
+</div>
+
+<div *ngIf="eList.length else message">
+    <h4>Employees List</h4>
+</div> -->
+<!-- <div *ngIf="!eList.length === 0"></div> -->
+<!-- <ng-template #message>
+    <p>No employees yet</p>
+</ng-template> -->
+<!-- @if(eList.length){ -->
+    <h4>Employees LisT</h4>
+    @for(emp1 of eList | async; track emp1.eid){
+        <!-- <app-employee [company]="'Rebit'" 
+        (idEvent)="onDeleteEvent($event)"
+        [data]="emp1"/> -->
+
+       <span [class.invalid]="delId === emp1.eid" *ngIf="delId === emp1.eid"> Error :{{errorMsg}}</span>
+       <button class="btn btn-warning" (click)="viewProfile(emp1.eid)" 
+                [class.border]="isSelected(emp1.eid)">Profile</button>
+
+
+        <app-employee [company]="'Rebit'" 
+        [data]="emp1">
+        <button del (click)="onDeleteEvent(emp1.eid)" class="m-2">Delete</button>
+        <button header (click)="onEditEvent(emp1.eid)">EDIT</button>
+        
+        <!-- <h1 style="color: chartreuse;" header>Header</h1> -->
+        </app-employee>
+        
+    }@empty{
+        <p>No employees yet</p>
+    }
+    <!-- <div *ngFor="let e of eList">
+        <app-employee [data]="e"></app-employee>
+    </div> -->
+<!-- }
+@else{
+    <p>No employees yet</p>
+} -->
